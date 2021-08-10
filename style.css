@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif; 
+    background-repeat: no-repeat;
+}
+.container{
+    background-image: url("./images/minions_PNG20.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.main{
+    max-width: 600px;
+    margin: auto;
+    padding: 1.5rem 0rem;
+}
+#output{
+    height: 11vh;
+    width: 63%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black; 
+    
+}
+#txt-input{
+    background: transparent;
+    width: 60%;
+    height: 10vh;
+    display: block;
+    padding: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem; 
+}
+#btn-translate{
+    background-color: #f8da61;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color: white;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    
+}
+.header{
+    background-color:#3B82F6;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+   
+}
+.header-heading{
+    text-align: center;
+}
+.uday{
+    font-weight: bold;
+}
+.footer{
+    text-align: center;
+    background-color: #3B82F6;
+    padding: 4rem;
+    border-top-right-radius: 1rem;
+    color: white;
+
+}
+.foot-header{
+    padding: 1rem 0rem;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    padding: 0rem 1rem;
+    color: white;
+}
+.foot-head{
+    font-size: large;
+    padding: 1rem 0rem;
+}
+/* u{
+    width: 5px;
+    padding-top: 2px;
+} */
